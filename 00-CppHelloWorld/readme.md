@@ -1,12 +1,13 @@
-#Trabajo Práctico #0 - Hello World
+# Trabajo Práctico #0 - Hello World
 
-Versión del compilador G++
-# g++ -version
+## Versión del compilador G++
+g++ -version
+
 g++.exe 11.2.0
 Copyright (C) 2021 Free Software Foundation, Inc.
   
 
-Tarea
+### Tarea
 1.  Si no posee una cuenta GitHub, crearla.
 2.  Crear un repositorio público llamado AED.
 3.  Escribir el archivo readme.md que actúa como front page del repositorio
@@ -19,11 +20,11 @@ Tarea
 10. Publicar en el repositorio personal AED la carpeta 00-CppHelloWorld con readme.md, hello.cpp, y output.txt .
 11. La última tarea es informar el usuario GitHub en la lista indicada en el curso
 Instrucciones
-El código fuente debe ser previamente compilado para luego poder ser ejecutado a través de la consola.
 
-Primero se debe correr el comando de compilación:
 
-# g++ hello.cpp
-Luego con el ejecutable ya compilado, correrlo y enviar su salida al archivo de texto output.txt
+Inicialmente se debe compilar.
 
-# .\hello.exe > output.txt
+#### g++ hello.cpp
+Una vez que ya fue compilado, se debe enviar su salida al archivo de texto output.txt
+
+#### .\hello.exe > output.txt
